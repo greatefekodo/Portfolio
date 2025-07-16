@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+body {
+  width: 100dvw;
+  overflow-x: hidden;
+  font-family: "Round", sans-serif;
+  background-image: url("/images/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  
+}
+
+
+@layer utilities {
+  .flex-center {
+    @apply flex justify-center items-center;
+  }
+
+
+}
+
+
+.container {
+  width: 100%;
+  @media (width >=40rem
+
+    /* 640px */
+  ) {
+    max-width: 40rem
+      /* 640px */
+    ;
+  }
+
+  @media (width >=48rem
+
+    /* 768px */
+  ) {
+    max-width: 48rem
+      /* 768px */
+    ;
+  }
+
+  @media (width >=64rem
+
+    /* 1024px */
+  ) {
+    max-width: 64rem
+      /* 1024px */
+    ;
+  }
+
+}
