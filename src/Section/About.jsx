@@ -72,14 +72,18 @@ const About = () => {
             Full-Stack Developer | Frontend • Backend • Cloud
           </h2>
 
-          <p className="text-lg sm:text-xl text-black leading-snug text-justify">
-            💻 <strong>About Me</strong> <br></br>
-            I'm a passionate full-stack developer who loves building modern, scalable, 
-            responsive, and accessible websites and applications that deliver
-            seamless user experiences. I enjoy taking ideas from concept to
-            deployment, working across both frontend design and backend logic,
-            and continuously improving my craft by learning new technologies.
-          </p>
+          <div className="p-3 sm:p-6 bg-gray-50 rounded-xl border border-gray-100">
+            <h3 className="text-base sm:text-lg font-bold text-black mb-2 sm:mb-3 flex items-center">
+              💻 About Me
+            </h3>
+            <p className="text-left sm:text-justify text-black leading-relaxed text-sm sm:text-base">
+              I'm a passionate full-stack developer who loves building modern, scalable, 
+              responsive, and accessible websites and applications that deliver
+              seamless user experiences. I enjoy taking ideas from concept to
+              deployment, working across both frontend design and backend logic,
+              and continuously improving my craft by learning new technologies.
+            </p>
+          </div>
 
           {/* 👇 Contact Info Added Here */}
           <div className="text-left text-black bg-gray-50 p-4 rounded-lg border border-gray-200">
