@@ -45,8 +45,8 @@ const projects = [
     url: "http://foodapp-dev-4567.s3-website.eu-north-1.amazonaws.com/",
     image: "/images/foodApp.png",
     admin: {
-      email: "greatefekodo@gmail.com",
-      password: "progress"
+      email: "test@gmail.com",
+      password: "1234"
     },
     stripe: {
       CardNumber: "4000056655665556",
