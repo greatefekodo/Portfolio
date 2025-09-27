@@ -62,8 +62,8 @@ const About = () => {
       </div>
 
       {/* Text Section */}
-      <div className="mt-8 text-center">
-        <h1 className="text-2xl font-bold text-slate-800 mb-6 great">
+      <div className="mt-3 text-center">
+        <h1 className="text-2xl font-bold text-slate-800 mb-4 great">
           Great Efekodo
         </h1>
 
