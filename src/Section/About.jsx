@@ -29,7 +29,7 @@ const About = () => {
           })
             .to('.great', {
               x: moveDistance,
-              y: -20,
+              y: -10,
               ease: 'power1.inOut',
               duration: 0.5,
             })
@@ -62,7 +62,7 @@ const About = () => {
       </div>
 
       {/* Text Section */}
-      <div className="mt-3 text-center">
+      <div className="mt-1 text-center">
         <h1 className="text-2xl font-bold text-slate-800 mb-4 great">
           Great Efekodo
         </h1>
