@@ -26,7 +26,8 @@ const projects = [
     name: "Ecommerce shopping",
     description: "Full e-commerce web app with cart, checkout, and authentication.",
     tech: ["React", "Spring Boot", "JWT","Amazon S3", "Amazon RDS", "Amazon EC2", "Stripe payment"],
-    Github: "http://ecom-development-frontend.s3-website-us-east-1.amazonaws.com/",
+    Github: "https://github.com/greatefekodo/Ecommerce_SpringBoot-Frontend",
+    url: "https://ecommerceshoppingwebsiteapplication.netlify.app/",
     image: "/images/ecom.png",
     stripe: {
       CardNumber: "4000056655665556",
@@ -41,7 +42,7 @@ const projects = [
     description:
       "Food ordering app with live tracking and secure payments. User can register and see the status of their orders. The admin can manage details through the admin portal, see live transactions and monthly revenue, monitor failed/successful transactions, and track the most ordered items from the admin dashboard.",
     tech: ["React", "Spring Boot", "Amazon S3", "Amazon RDS", "Amazon EC2", "Stripe payment", "Gmail SMTP with Jakarta Mail -For real time notification"],
-    Github: "https://github.com/greatefekodo/Ecommerce_SpringBoot-Frontend",
+    Github: "https://github.com/greatefekodo/Ecommerce_project2",
     url: "http://foodapp-dev-4567.s3-website.eu-north-1.amazonaws.com/",
     image: "/images/foodApp.png",
     admin: {

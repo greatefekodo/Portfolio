@@ -18,13 +18,13 @@ const Projects = () => {
     {
       id: 3,
       name: "Ecommerce shopping",
-      Github: "http://ecom-development-frontend.s3-website-us-east-1.amazonaws.com/",
-      url: "http://ecom-development-frontend.s3-website-us-east-1.amazonaws.com/",
+      Github: "https://github.com/greatefekodo/Ecommerce_SpringBoot-Frontend",
+      url: "https://ecommerceshoppingwebsiteapplication.netlify.app/",
     },
     {
       id: 4,
       name: "Food Delivery app",
-      Github: "https://github.com/greatefekodo/Ecommerce_SpringBoot-Frontend",
+      Github: "https://github.com/greatefekodo/Ecommerce_project2",
       url: "http://foodapp-dev-4567.s3-website.eu-north-1.amazonaws.com/",
     },
   ];
