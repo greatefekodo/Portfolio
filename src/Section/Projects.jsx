@@ -32,7 +32,7 @@ const Projects = () => {
   return (
     <section className="mt-20 h-dvh px-4 project">
       <h1 className="text-3xl font-bold flex items-center justify-center mb-8 text-gray-800">
-        🚀 Projects
+        🛠️ Projects
       </h1>
 
   
