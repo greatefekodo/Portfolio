@@ -71,6 +71,17 @@ const projects = [
       Date: "Any future date",
     },
   },
+
+  {
+    id: 5,
+    name: "Tour Booking",
+    description:
+      "A responsive project website where user can see various tours to book.",
+    tech: ["Html", "CSS"],
+    Github: "https://github.com/greatefekodo/Tour",
+    url: "https://tour-booking-project.netlify.app/",
+    image: "/images/tour.png",
+  }
 ];
 
 const ProjectDetails = () => {
