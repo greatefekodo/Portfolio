@@ -10,7 +10,7 @@ const About = () => {
       // Desktop animation only
       const imageMoveX = -70;
       const nameMoveX = -70;
-      const nameMoveY = -90;
+      const nameMoveY = -18;
       const aboutMoveY = -30;
       const projectMoveY = -30;
 
@@ -101,7 +101,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className="mt-6 text-center">
+      <div className="mt-0 text-center">
         <h1 className="text-2xl font-bold text-slate-800 mb-4 great">
           Great Efekodo
         </h1>
