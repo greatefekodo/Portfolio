@@ -41,8 +41,8 @@ const Projects = () => {
   ];
 
   return (
-    <section className="mt-20 h-dvh px-4 project">
-      <h1 className="text-3xl font-bold flex items-center justify-center mb-8 text-gray-800">
+    <section className="mt-8 md:mt-0 h-dvh px-4 project">
+      <h1 className="text-3xl font-bold flex items-center justify-center mb-4 text-gray-800">
         🛠️ Projects
       </h1>
 
