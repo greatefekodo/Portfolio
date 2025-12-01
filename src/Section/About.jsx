@@ -164,7 +164,7 @@ const About = () => {
               <h3 className="text-lg font-semibold">✨ Frontend Skills</h3>
               <ul className="list-disc pl-6">
                 <li>React.js – dynamic and scalable UI</li>
-                <li>HTML5, CSS3, JavaScript (ES6+)</li>
+                <li>HTML5, CSS3, SCSS, JavaScript (ES6+)</li>
                 <li>Tailwind CSS – responsive UI design</li>
                 <li>GSAP – animations & interactions</li>
                 <li>Accessibility & Responsive Design</li>

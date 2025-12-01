@@ -32,7 +32,7 @@ const projects = [
       "JWT",
       "Amazon S3",
       "Amazon RDS",
-      "Amazon EC2",
+      "Render for Backend deployment",
       "Stripe payment",
     ],
     Github: "https://github.com/greatefekodo/Ecommerce_SpringBoot-Frontend",
