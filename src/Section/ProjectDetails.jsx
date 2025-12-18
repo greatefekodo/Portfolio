@@ -92,6 +92,17 @@ const projects = [
     Github: "https://github.com/greatefekodo/Hotel-booking",
     url: "https://hotelbookingappwebsite.netlify.app/",
     image: "/images/hotel.png",
+  },
+
+  {
+    id: 7,
+    name: "Nexter RealEstate",
+    description:
+      "A reponsive website build using the power of CSS grid.",
+    tech: ["Html", "Scss"],
+    Github: "https://github.com/greatefekodo/Nexter-Real-Estate",
+    url: "https://nexterrealestateweb.netlify.app/",
+    image: "/images/nexter.png",
   }
 ];
 

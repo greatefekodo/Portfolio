@@ -31,23 +31,22 @@ const Projects = () => {
     {
       id: 5,
       name: "Tour Booking",
-      description:
-        "A responsive project website where user can see various tours to book.",
-      tech: ["Html", "CSS"],
       Github: "https://github.com/greatefekodo/Tour",
-      url: "https://tour-booking-project.netlify.app/",
-      image: "/images/tour.png",
+      url: "https://tour-booking-project.netlify.app/"
   },
 
   {
     id: 6,
     name: "Hotel Booking",
-    description:
-      "A responsive website for hotel booking.",
-    tech: ["Html", "Scss"],
     Github: "https://github.com/greatefekodo/Hotel-booking",
     url: "https://hotelbookingappwebsite.netlify.app/",
-    image: "/images/hotel.png",
+  },
+
+  {
+    id: 7,
+    name: "Nexter RealEstate",
+    Github: "https://github.com/greatefekodo/Nexter-Real-Estate",
+    url: "https://nexterrealestateweb.netlify.app/",
   }
   ];
 

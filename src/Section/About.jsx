@@ -117,7 +117,7 @@ const About = () => {
             <h3 className="text-base sm:text-lg font-bold text-black mb-3 flex items-center">
               💻 About Me
             </h3>
-            <p className="text-left sm:text-justify text-black leading-relaxed text-sm sm:text-base">
+            <p className="text-left  text-black leading-relaxed text-base">
               I'm a passionate full-stack developer who loves building modern,
               scalable, responsive, and accessible websites and applications
               that deliver seamless user experiences. I enjoy taking ideas from
