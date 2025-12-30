@@ -1,62 +1,13 @@
 import React from "react";
 import ProjectsList from "./ProjectsList";
+import projects from "../data/projectsData";
 
 const Projects = () => {
-  const projects = [
-    {
-      id: 1,
-      name: "GTA VI Landing page",
-      Github: "https://github.com/greatefekodo/GTA_VI_landing_page",
-      url: "https://gta-vi-landing-page-sigma.vercel.app/",
-    },
-    {
-      id: 2,
-      name: "Music Fest",
-      Github: "https://github.com/greatefekodo/Music-Fest",
-      url: "https://music-fest-duld.vercel.app/",
-    },
-    {
-      id: 3,
-      name: "Ecommerce shopping",
-      Github: "https://github.com/greatefekodo/Ecommerce_SpringBoot-Frontend",
-      url: "https://ecommerceshoppingwebsiteapplication.netlify.app/",
-    },
-    {
-      id: 4,
-      name: "Food Delivery app",
-      Github: "https://github.com/greatefekodo/Ecommerce_project2",
-      url: "http://foodapp-dev-4567.s3-website.eu-north-1.amazonaws.com/",
-    },
-    
-    {
-      id: 5,
-      name: "Tour Booking",
-      Github: "https://github.com/greatefekodo/Tour",
-      url: "https://tour-booking-project.netlify.app/"
-  },
-
-  {
-    id: 6,
-    name: "Hotel Booking",
-    Github: "https://github.com/greatefekodo/Hotel-booking",
-    url: "https://hotelbookingappwebsite.netlify.app/",
-  },
-
-  {
-    id: 7,
-    name: "Nexter RealEstate",
-    Github: "https://github.com/greatefekodo/Nexter-Real-Estate",
-    url: "https://nexterrealestateweb.netlify.app/",
-  }
-  ];
-
   return (
     <section className="mt-8 md:mt-0 h-dvh px-4 project">
       <h1 className="text-3xl font-bold flex items-center justify-center mb-4 text-gray-800">
         🛠️ Projects
       </h1>
-
-  
 
       <div className="container mx-auto relative rounded-lg bg-blue-100 py-10">
         {/* Timeline Vertical Line */}
@@ -72,12 +23,13 @@ const Projects = () => {
 
         {/* Projects Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          {projects.map((project) => (
+          {projects.map((project, index) => (
             <div
-              key={project.id}
+              key={index}
               className="p-3 backdrop-blur-md rounded-lg bg-white/60 border border-white/40 shadow-sm hover:shadow transition-shadow"
             >
-              <ProjectsList {...project} />
+              {/* automatic ID via index */}
+              <ProjectsList {...project} id={index} />
             </div>
           ))}
         </div>

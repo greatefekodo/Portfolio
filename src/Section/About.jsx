@@ -158,7 +158,7 @@ const About = () => {
           </div>
 
           {/* SKILLS */}
-          <div className="text-left text-black space-y-4">
+          <div className="text-left text-black space-y-4 leading-relaxed">
 
             <div>
               <h3 className="text-lg font-semibold">✨ Frontend Skills</h3>
@@ -173,7 +173,7 @@ const About = () => {
 
             <div>
               <h3 className="text-lg font-semibold">⚙️ Backend & DevOps Skills</h3>
-              <ul className="list-disc pl-6">
+              <ul className="list-disc pl-6 space-y-1">
                 <li>Spring Boot & Microservices</li>
                 <li>JWT Authentication & Security</li>
                 <li>Apache Kafka – real-time streaming</li>

@@ -1,35 +1,49 @@
-import React from 'react';
-import { FaGithub } from 'react-icons/fa';
-import { FiExternalLink } from 'react-icons/fi';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { FaGithub, FaInfoCircle } from "react-icons/fa";
+import { FiExternalLink } from "react-icons/fi";
+import { Link } from "react-router-dom";
 
 const ProjectsList = ({ id, name, Github, url }) => {
   return (
-    <div className="p-3 hover:scale-105 transition-transform duration-300 flex-col">
+    <div className="p-3 space-y-2 md:space-y-0 hover:scale-105 transition-transform duration-300 flex flex-col">
       <h3 className="text-lg font-semibold">{name}</h3>
-      
-      <div className='flex gap-1 items-center'>
-        <a href={Github} target="_blank" rel="noopener noreferrer" className="text-slate-700 hover:text-blue-800">
-          View on GitHub
+
+      <div className="flex gap-1 items-center">
+        <a
+          href={Github}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center space-x-1 text-slate-700 hover:text-blue-800"
+        >
+          <span>View on GitHub</span>
+          <FaGithub size={18} />
         </a>
-        <FaGithub size={18} />
+        
       </div>
-      
+
       {url && (
-        <div className='flex gap-1 items-center'>
-          <a href={url} target="_blank" rel="noopener noreferrer" className="text-slate-700 hover:text-blue-800 hover:scale-120 transition-transform duration-300">
-            Live demo 
+        <div className="flex gap-1 items-center">
+          <a
+            href={url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center space-x-1 text-slate-700 hover:text-blue-800 hover:scale-110 transition-transform duration-200 ease-in-out"
+          >
+            <span>Live demo</span>
+             <FiExternalLink size={18} />
+            
           </a>
-          <FiExternalLink size={18} />
+          
         </div>
       )}
 
-      {/* Project Details Page link */}
-      <Link 
-        to={`/project/${id}`} 
-        className="text-slate-700 hover:text-blue-800 hover:scale-120 transition-transform duration-300"
+      
+      <Link
+        to={`/project/${id}`}
+        className="inline-flex items-center space-x-1 text-slate-700 hover:text-blue-800"
       >
-        Project Details
+        <span>Project Details</span>
+         <FaInfoCircle size={18} />
       </Link>
     </div>
   );
