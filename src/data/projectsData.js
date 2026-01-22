@@ -38,26 +38,26 @@ const projects = [
       Date: "Any future date",
     },
   },
-  {
-    name: "Food Delivery app",
-    description:
-      "Food ordering app with live tracking and secure payments.",
-    tech: [
-      "React",
-      "Spring Boot",
-      "Amazon S3",
-      "Amazon RDS",
-      "Amazon EC2",
-      "Stripe payment",
-    ],
-    Github: "https://github.com/greatefekodo/Ecommerce_project2",
-    url: "http://foodapp-dev-4567.s3-website.eu-north-1.amazonaws.com/",
-    image: "/images/foodApp.png",
-    admin: {
-      email: "test@gmail.com",
-      password: "1234",
-    },
-  },
+  // {
+  //   name: "Food Delivery app",
+  //   description:
+  //     "Food ordering app with live tracking and secure payments.",
+  //   tech: [
+  //     "React",
+  //     "Spring Boot",
+  //     "Amazon S3",
+  //     "Amazon RDS",
+  //     "Amazon EC2",
+  //     "Stripe payment",
+  //   ],
+  //   Github: "https://github.com/greatefekodo/Ecommerce_project2",
+  //   url: "http://foodapp-dev-4567.s3-website.eu-north-1.amazonaws.com/",
+  //   image: "/images/foodApp.png",
+  //   admin: {
+  //     email: "test@gmail.com",
+  //     password: "1234",
+  //   },
+  // },
   {
     name: "Tour Booking",
     description: "A responsive tour booking website.",
@@ -91,6 +91,15 @@ const projects = [
     url: "https://calendarappproject.netlify.app/",
     image: "/images/calender.png",
   },
+
+  {
+    name: "AI Chat Bot",
+    description: "A chatbot powered by Groq's Llama-3.1-8B-Instant model that generates intelligent responses to user prompts whether typed as text or selected via emoji.",
+    tech: ["React", "CSS", "Groq API"],
+    Github: "https://github.com/greatefekodo/AI-Chat-Bot/tree/main/src",
+    url: "https://aichatbotbygreat.netlify.app/",
+    image: "/images/aichatbot.png",
+  }
 ];
 
 export default projects;
