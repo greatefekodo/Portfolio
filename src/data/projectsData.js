@@ -99,7 +99,17 @@ const projects = [
     Github: "https://github.com/greatefekodo/AI-Chat-Bot/tree/main/src",
     url: "https://aichatbotbygreat.netlify.app/",
     image: "/images/aichatbot.png",
+  },
+
+   {
+    name: "Live Weather App",
+    description: "A weather app that provides real-time weather updates based on the user’s search input, using the OpenWeather API for live data",
+    tech: ["React", "CSS", "OpenWeather API"],
+    Github: "https://github.com/greatefekodo/Live-Weather-App",
+    url: "https://liveweatherappproject.netlify.app/",
+    image: "/images/weatherApp.png",
   }
+
 ];
 
 export default projects;
