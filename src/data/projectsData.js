@@ -108,6 +108,15 @@ const projects = [
     Github: "https://github.com/greatefekodo/Live-Weather-App",
     url: "https://liveweatherappproject.netlify.app/",
     image: "/images/weatherApp.png",
+  },
+
+  {
+    name: "Apple Store Clone",
+    description: "A responsive Apple Store clone built with React and styled-components, featuring a sleek design and smooth animations.",
+    tech: ["React", "Tailwind CSS"],
+    Github: "https://github.com/greatefekodo/Apple-Store",
+    url: "https://aplestor.netlify.app/",
+    image: "/images/apple-store.png",
   }
 
 ];
