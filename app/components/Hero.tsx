@@ -42,12 +42,14 @@ export const Hero = () => {
                             <motion.button
                                 whileHover={{scale: 1.05}}
                                 className="px-6 py-3  bg-gradient-to-r from-purple-700 to-purple-500 rounded-full font-bold hover:bg-purple-700 transition-colors"
+                                onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
                             >
                                 Contact me
                             </motion.button>
                             <motion.button
                                 whileHover={{scale: 1.05}}
                                 className="px-6 py-3 border border-purple-400/20 rounded-full font-bold hover:bg-purple-700 transition-colors"
+                                onClick={() => document.getElementById('portfolio')?.scrollIntoView({ behavior: 'smooth' })}
                             >
                                 View Work
                             </motion.button>
