@@ -23,8 +23,7 @@ export const About = () => {
                             const skills = [<br />
                             &nbsp;&nbsp; 'JavaScript', <br />
                             &nbsp;&nbsp; 'React', <br />
-                            &nbsp;&nbsp; 'Node.js', <br />
-                            &nbsp;&nbsp; 'Java', <br />
+                            &nbsp;&nbsp; 'Java: Spring Boot', <br />
                             &nbsp;&nbsp; 'SQl', <br />
                             &nbsp;&nbsp; 'AWS'
                             <br />
@@ -40,13 +39,21 @@ export const About = () => {
                         modern technologies. My expertise spans both front-end and back-end
                         development, allowing me to create seamless, end-to-end solutions.
                     </p>
-                    <div className="mt-4 relative border border-white/20  p-4 h-[220px] overflow-hidden">
-                        <Image
+                    <div className="mt-4 relative border border-white/20 p-4 h-[220px] overflow-hidden">
+                        {/* <Image
                             src={project1}
                             alt="project 1"
                             layout="fill"
                             // objectFit="cover"
 
+                        /> */}
+
+                        <video
+                            src="/video/Video.mp4"
+                            autoPlay
+                            muted
+                            playsInline
+                            className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full object-cover pt-5"
                         />
                     </div>
                 </div>
@@ -72,9 +79,10 @@ export const About = () => {
                         <div className="border border-white/20  p-3">
                             <h4 className="text-purple-300 font-medium mb-2">Backend</h4>
                             <ul className="text-white/50 space-y-1 text-sm">
-                                <li>Node.js</li>
+                                <li>MongoDB</li>
                                 <li>Java: Spring boot</li>
                                 <li>PostgresSQL</li>
+                                <li>MySQL</li>
                                 <li>AWS</li>
                             </ul>
                         </div>
